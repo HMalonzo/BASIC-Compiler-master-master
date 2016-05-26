@@ -84,7 +84,7 @@ class ViewController: UIViewController, UITextViewDelegate {
         }
         
         let source = fileView.text
-        VM(program: source)!.run()
+        print(VM(program: source)!.run())
         
     }
     
