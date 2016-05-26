@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC40590A1CF7922E007A69EB /* Pipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4059091CF7922E007A69EB /* Pipe.swift */; };
+		AC40590C1CF7924A007A69EB /* VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40590B1CF7924A007A69EB /* VM.swift */; };
 		ACEAC9401CE9F6B00065A8C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEAC93F1CE9F6B00065A8C2 /* AppDelegate.swift */; };
 		ACEAC9421CE9F6B00065A8C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEAC9411CE9F6B00065A8C2 /* ViewController.swift */; };
 		ACEAC9451CE9F6B00065A8C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEAC9431CE9F6B00065A8C2 /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC4059091CF7922E007A69EB /* Pipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pipe.swift; sourceTree = "<group>"; };
+		AC40590B1CF7924A007A69EB /* VM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VM.swift; sourceTree = "<group>"; };
 		ACEAC93C1CE9F6B00065A8C2 /* Brain---- Compiler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brain---- Compiler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEAC93F1CE9F6B00065A8C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACEAC9411CE9F6B00065A8C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 				ACEAC9411CE9F6B00065A8C2 /* ViewController.swift */,
 				FFE94BD41CF6848100306919 /* Save File.swift */,
 				FFE94BD61CF684A800306919 /* File View.swift */,
+				AC4059091CF7922E007A69EB /* Pipe.swift */,
+				AC40590B1CF7924A007A69EB /* VM.swift */,
 				ACEAC9431CE9F6B00065A8C2 /* Main.storyboard */,
 				ACEAC9461CE9F6B00065A8C2 /* Assets.xcassets */,
 				ACEAC9481CE9F6B00065A8C2 /* LaunchScreen.storyboard */,
@@ -264,7 +270,9 @@
 			files = (
 				ACEAC9421CE9F6B00065A8C2 /* ViewController.swift in Sources */,
 				FFE94BD71CF684A800306919 /* File View.swift in Sources */,
+				AC40590C1CF7924A007A69EB /* VM.swift in Sources */,
 				ACEAC9401CE9F6B00065A8C2 /* AppDelegate.swift in Sources */,
+				AC40590A1CF7922E007A69EB /* Pipe.swift in Sources */,
 				FFE94BD51CF6848100306919 /* Save File.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
